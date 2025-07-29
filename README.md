@@ -70,20 +70,17 @@ This project predicts stock price trends using a Long Short-Term Memory (LSTM) n
 - ├── README.md
 - └── requirements.txt (optional)
 
- 
 ---
-
-## ✅ Requirements
-
-To install dependencies:
-
-```bash
-pip install pandas numpy matplotlib scikit-learn tensorflow.
-
-
 
 ## Author
 YOGESH RAJPUT
 - Project: Stock Price Trend Prediction using LSTM
 
+## Requirements
+
+To install dependencies:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn tensorflow.
+'''
 
