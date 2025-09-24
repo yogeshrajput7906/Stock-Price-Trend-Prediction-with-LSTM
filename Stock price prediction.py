@@ -15,7 +15,7 @@ if os.path.isfile(file):
     df['Date'] = pd.to_datetime(df['Date'])
     df.set_index('Date', inplace=True)
 else:
-    print("File not found. Using dummy data.")
+    print("File not found.")
     dates = pd.date_range('2023-01-01', periods=200)
     prices = np.cumsum(np.random.randn(200)) + 150
     df = pd.DataFrame({'Date': dates, 'Close': prices}).set_index('Date')
@@ -102,3 +102,4 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
